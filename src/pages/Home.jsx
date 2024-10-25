@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Header from '../components/Header'
 import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { fetchAllProducts } from '../redux/slice/productslice'
+import { fetchAllProducts } from '/src/redux/slice/productslice'
 
 
 const Home = () => {
